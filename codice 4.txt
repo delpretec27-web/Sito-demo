@@ -1,0 +1,15 @@
+// Estratto della logica di invio
+const onSubmit = (data) => {
+  mutation.mutate(data, {
+    onSuccess: () => {
+      toast({
+        title: "Messaggio inviato!",
+        description: "Ti ricontatteremo al più presto.",
+      });
+      form.reset();
+    },
+  });
+};
+
+
+
