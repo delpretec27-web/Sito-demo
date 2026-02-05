@@ -1,0 +1,24 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: 221 83% 53%;      /* Blu ProSoluzioni */
+  --secondary: 224 76% 48%;    /* Blu Scuro */
+  --accent: 45 93% 47%;        /* Oro per i dettagli */
+  --background: 210 40% 98%;
+  --foreground: 222 47% 11%;
+  --radius: 0.75rem;
+}
+
+body {
+  @apply bg-background text-foreground antialiased;
+  font-family: 'DM Sans', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Outfit', sans-serif;
+}
+
+
